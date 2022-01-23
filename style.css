@@ -45,7 +45,6 @@ nav ul{
     justify-content: space-evenly;
 }
 .tab{
-   
     list-style-type: none;
     text-decoration: none;
     color: #fff;
@@ -64,7 +63,7 @@ nav ul{
 }
 
 
-@media (max-width:600px){
+@media (max-width:821px){
     html{
         overflow-x: hidden;
     }
@@ -90,23 +89,24 @@ nav ul{
     }
     nav{
         position:fixed ;
-        left:1000px;
+        left:100vw;
         z-index: 2;
         height: 100vh;
+        min-width: 100vw;
         background: #181719;
         transition: 0.2s ease-out;
     }
     nav.isactive{
-        transform: translateX(-1090px);
-        min-width: 150%;
+        transform: translateX(-100vw);
         text-align: center;
         transition: 0.2s ease-in;
     }
-    nav ul{
+    nav ul{        
         flex-direction: column;
-    }
-    .navbar{
-         margin-top: 30%; 
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .tab{
         margin: 20px 80px;
@@ -201,9 +201,7 @@ h6{
     height: 72px;
     border-radius: 50%;
 }
-.profile-info{
 
-}
 h5{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -238,7 +236,7 @@ h4{
 
 
 /* main-mobile */
-@media (max-width:600px){
+@media (max-width:821px){
 .desc{
     margin-top: 38px;
   
