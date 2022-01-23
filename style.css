@@ -233,7 +233,17 @@ h4{
         margin-right: 100px;
     }
 }
-
+/* footer */
+.footer-para{
+    
+    margin: 30px auto;
+    height: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    text-align: center;
+    min-width: 480px;
+    opacity: 0.6;
+}
 
 /* main-mobile */
 @media (max-width:821px){
@@ -266,5 +276,12 @@ p{
     width: 80%;
     left:15%;
     top:-44px;
+}
+.footer-para{
+    position: relative;
+    bottom: 0;
+    margin-top: 0;
+    font-size: 1.3rem;
+    min-width: 450px;
 }
 }
